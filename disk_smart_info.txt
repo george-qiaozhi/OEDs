@@ -1,0 +1,56 @@
+smartctl 6.4 2014-10-07 r4002 [armv7l-linux-3.14.3-std-00094-g9035cb4] (local build)
+Copyright (C) 2002-14, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF INFORMATION SECTION ===
+Vendor:               HGST
+Product:              HUS724040ALS640
+Revision:             aH1F
+Compliance:           SPC-4
+User Capacity:        4,000,787,030,016 bytes [4.00 TB]
+Logical block size:   512 bytes
+LU is resource provisioned, LBPRZ=0
+Rotation Rate:        7200 rpm
+Form Factor:          3.5 inches
+Logical Unit id:      0x5000cca03b2f21e8
+Serial number:        PBGUXK8X
+Device type:          disk
+Transport protocol:   SAS (SPL-3)
+Local Time is:        Wed Apr 12 22:02:26 2017 UTC
+SMART support is:     Available - device has SMART capability.
+SMART support is:     Enabled
+Temperature Warning:  Enabled
+
+=== START OF READ SMART DATA SECTION ===
+SMART Health Status: OK
+
+Current Drive Temperature:     44 C
+Drive Trip Temperature:        85 C
+
+Manufactured in week 16 of year 2013
+Specified cycle count over device lifetime:  50000
+Accumulated start-stop cycles:  1652
+Specified load-unload count over device lifetime:  600000
+Accumulated load-unload cycles:  2582
+Elements in grown defect list: 1
+
+Vendor (Seagate) cache information
+  Blocks sent to initiator = 380079892856832
+
+Error counter log:
+           Errors Corrected by           Total   Correction     Gigabytes    Total
+               ECC          rereads/    errors   algorithm      processed    uncorrected
+           fast | delayed   rewrites  corrected  invocations   [10^9 bytes]  errors
+read:       2107        0         0      2107      24305       5128.941           1
+write:         0        0         0         0      10709       2669.381           0
+verify:        0        0         0         0      12492          0.000           0
+
+Non-medium error count:        6
+
+SMART Self-test log
+Num  Test              Status                 segment  LifeTime  LBA_first_err [SK ASC ASQ]
+     Description                              number   (hours)
+# 1  Background short  Completed                   -    2832                 - [-   -    -]
+# 2  Background long   Aborted (by user command)   7    2832                 - [-   -    -]
+
+Long (extended) Self Test duration: 37038 seconds [617.3 minutes]
+

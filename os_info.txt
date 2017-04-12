@@ -1,0 +1,5 @@
+Linux 192.168.1.98 3.14.3-std-00094-g9035cb4 #5 Sat Jun 13 16:58:38 PDT 2015 armv7l GNU/Linux
+Distributor ID:	Debian
+Description:	Debian GNU/Linux 8.7 (jessie)
+Release:	8.7
+Codename:	jessie

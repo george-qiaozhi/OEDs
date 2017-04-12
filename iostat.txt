@@ -1,0 +1,8 @@
+Linux 3.14.3-std-00094-g9035cb4 (192.168.1.98) 	04/12/17 	_armv7l_	(1 CPU)
+
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.33    0.01    0.04    0.05    0.00   99.56
+
+Device:         rrqm/s   wrqm/s     r/s     w/s    rkB/s    wkB/s avgrq-sz avgqu-sz   await r_await w_await  svctm  %util
+sda               0.00     0.18    0.02    0.16     0.36     4.08    49.78     0.00   16.18    4.18   17.63   3.35   0.06
+
