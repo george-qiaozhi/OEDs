@@ -21,5 +21,8 @@ Open Ethernet Drive uses embedded Debian OS on its proprietary hardware, so the 
 	```
     
 - ```cpulimit```
+	- Manages CPU resources, apperently.
+	- Use ```cpulimit -e [process id or name] -l [limits]``` to limit the percentage of resource usage of a process. 
+	- e.g., ```cpulimit -e sysbench -l 50```, limit the process ```sysbench``` to use only 50 percent of CPU, the sysbench result shows the prime division computation becomes 1 times slower.
 - ```quota``` for disk I/O related management
 
