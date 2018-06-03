@@ -1,5 +1,5 @@
 # Resource Management in OED
-Open Ethernet Drive uses embedded Debian OS on its proprietary hardware, so the resource management is a little different than 
+Open Ethernet Drive uses embedded Debian OS on its proprietary hardware, so the resource management is a little different than vanilla Linux.
 
 ## RM in general
 - Control groups (CG) 
